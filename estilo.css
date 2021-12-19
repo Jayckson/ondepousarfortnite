@@ -1,0 +1,76 @@
+.divMap{
+	border: 5px outset red;
+	background-image: url("mapa.png");
+	background-size: 600px 600px;
+	height: 600px;
+	width: 600px;
+}
+
+.divMarcador{
+	border: 3px dashed rgba(75,0,130,1);
+	background-color: rgba(255,0,0,0.5);
+	height: 30px;
+	width: 30px;
+	position: relative;
+	top: 0px;
+	left: -280px;
+	border-radius: 17px;
+}
+.divMarcador2{
+	border: 2px dashed rgba(75,0,130,1);
+	background-color: rgba(255,0,0,0.4);
+	height: 50%;
+	width: 50%;
+	position: relative;
+	border-radius: 15px;
+	top: 5px;
+}
+
+.marcador{
+	border: 0px;
+	background-image: url("ponto.png");
+	/*background-color: rgba(255,0,0,0.5);*/
+	height: 40px;
+	width: 40px;
+	position: relative;
+	top: 260px;
+	left: 0px;
+	animation: blinker 0.7s ease-in-out infinite;
+
+	
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.botao{
+	background-color: green;
+	width: 610px;
+	position: relative;
+	color: white;
+	font-weight: bold;
+}
+
+.localizacao{
+	background-color: green;
+	color: white;
+	font-family: initial;
+	width: 610px;
+}
+
+.titulo{
+	background-color: green;
+	width: 610px;
+	position: relative;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font-family: fantasy;
+}
+
+body{
+	margin: 0px;
+}
